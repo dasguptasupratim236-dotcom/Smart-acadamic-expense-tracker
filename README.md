@@ -40,9 +40,6 @@ behind the scenes the application keeps your data organized by saving everything
 
 ## Execution instructions 
 1. open terminal inside project directory
-2. run command:
-```bash 
-python main.py
-```
+2. run command: ```bash python main.py ```
 
 
