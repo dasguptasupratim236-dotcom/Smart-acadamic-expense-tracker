@@ -43,4 +43,6 @@ behind the scenes the application keeps your data organized by saving everything
 2. run command:
 ```bash 
 python main.py
+```
+
 
