@@ -1,18 +1,19 @@
 import sys
+from turtle import clear
 from engine.tracker import TrackerEngine
 from models.expense import Expense
 from utils.validators import validate_positive_float, validate_non_empty_string
 
 def print_menu():
-    print("\n" + "=" * 40)
-    print("smart academic Expense Tracker")
-    print("=" * 40)
-    print("1. set monthly budget")
-    print("2. add expense")
-    print("3. view all expenses")
-    print("4. view analytics and summary")
-    print("5.Exit")
-    print("=" * 40)
+    print("\n")
+    print("Smart Academic Expense Tracker")
+    print()
+    print("1. Set monthly budget")
+    print("2. Add expense")
+    print("3. View all expenses")
+    print("4. View analytics and summary")
+    print("5. Exit")
+    print()
 
 def main():
     tracker = TrackerEngine()
@@ -55,7 +56,7 @@ def main():
             if summary['remaining_budget'] < 0:
                 print("Warning: You have exceeded your budget!")
         elif choice == '5':
-            print("Exiting the application. Goodbye!")
+            print("Exiting the application.Thank you")
             sys.exit(0)
         else:
             print("Invalid choice. Please enter a number between 1 and 5.")

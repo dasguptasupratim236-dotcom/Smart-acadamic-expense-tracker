@@ -39,7 +39,7 @@ insted of dealing with clutted spreadsheets or keeping manual notes , students c
 
 behind the scenes the application keeps your data organized by saving everything directly to local json fie,meaning your records stay safe even after you close the program. it also features built in input validation to make sure you don't accidentally type incorrect dates,nagative numbers, or invalid catagories ,while keeping all its business logic data models ,and helper tools neatly separated into dedicated folders.
 
-## excecution instructions 
+## excecution instructions c
 1. open terminal inside project directory
 2. run command:
 ```bash
